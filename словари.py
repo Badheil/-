@@ -13,7 +13,6 @@ for i in sorted_values:
             break
 p = 0
 for k, v in sorted_dict.items():
-    # print(k, end=": " + str(v) + "\n")
     print("{}: {}".format(k, v))
     p +=1
     if p==3:
